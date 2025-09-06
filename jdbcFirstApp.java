@@ -22,8 +22,9 @@ public class jdbcFirstApp {
 			statement.close();
 			connection.close();
 		}
-		catch(Exception e) {
-			System.out.println(e);
+		catch(Exception exception) {
+			System.out.println(exception);
 		}
 	}
+
 }
